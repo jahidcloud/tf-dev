@@ -1,0 +1,2 @@
+[example]
+ansible_ssh_host=ec2-54-155-244-163.eu-west-1.compute.amazonaws.com. ansible_ssh_port=22 ansible_ssh_user=ubuntu

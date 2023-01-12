@@ -1,0 +1,37 @@
+{
+    "builders": [
+      {
+        "type": "amazon-ebs",
+        "region": "{{user `region`}}",
+        "source_ami": "ami-00b2eeb9575d23835",
+        "instance_type": "{{user `instance_type`}}",
+        "ssh_username": "{{user `ssh_username`}}",
+        "ami_name": "packer-base-nginx {{timestamp}}",
+        "tags": {
+            "Name": "nginx-application"
+        }
+      }
+    ],
+
+    "provisioners": [
+        {
+          "type": "shell",
+          "inline": [
+            "sleep 30",  
+            "sudo apt-get -y install nginx",
+            "sudo apt-get update",
+            "sudo systemctl enable nginx.service",
+            "sudo systemctl start nginx.service",
+            "sleep 30",
+            "sudo apt-get update"
+
+            
+          ]
+        }
+    ]
+}
+    
+
+
+
+
