@@ -1,0 +1,237 @@
+   59  arch -x86_64 brew install docker 
+   60  docker
+  220  docker run hello-world 
+  223  docker run hello-world 
+  224  docker
+  226  sudo docker run hello-world 
+  227  docker run hello-world 
+  228  docker run -it ubuntu bash
+  229  docker ps 
+  230  docker ls 
+  231  docker container ls
+  232  docker ps -a 
+  322  docker run -it ubuntu bash
+  324  docker ps 
+  325  docker ps -a 
+  326  docker container ls 
+  333  docker --version 
+  358  docker ps -a
+  359  docker ls 
+  439  docker build -t proxy .
+  442  docker build -t proxy .
+  521  touch .dockerignore 
+  522  docker build .
+  524  git commit -m "updated docker image"
+  543  docker-compose up 
+  549  touch docker-compose-proxy.yml
+  550  docker-compose -f docker-compose-proxy.yml up
+  556  docker build -t proxy .
+  561  docker-compose -f docker-compose-proxy.yml up
+  567  docker build -t proxy .
+  578  docker-compose -f docker-compose-proxy.yml up
+  580  cat docker-compose-proxy.yml
+  602  docker build -t proxy .
+  607  docker-compose -f docker-compose-proxy.yml up
+  609  docker-compose -f docker-compose-proxy.yml up
+  611  docker-compose up
+  613  docker-compose -f docker-compose-proxy.yml up
+  628  rm -rf docker-compose-proxy.yml
+  629  mv docker-compose-proxy.yml ../Courses/recipe-app-api-devops
+  635  docker build -t proxy .
+  640  docker-compose up
+  641  docker-compose -f docker-compose-proxy.yml up
+  652  docker-compose up 
+  653  docker ps -a
+  654  docker rm $(docker ps -aq)
+  655  docker stop $(docker ps -aq)
+  656  docker rm $(docker ps -aq)
+  657  docker ps -a
+  658  docker-compose up 
+  659  docker stop $(docker ps -aq)
+  660  docker rm $(docker ps -aq)
+  665  docker-compose up
+  670  docker build -t proxy .
+  675  docker-compose up
+  676  docker-compose -f docker-compose-proxy.yml up
+  680  cat docker-compose.yml
+  686  mv docker-compose.yml docker-compose.yml-2
+  687  cp -r docker-compose.yml-2 
+  691  docker build -t proxy .
+  693  docker-compose up 
+  694  docmer-compose -f docker-compose-proxy.yml up 
+  695  docker-compose -f docker-compose-proxy.yml up
+  730  docker stop $(docker ps -aq)
+  731  docker rm $(docker ps -aq)
+  736  docker build -t proxy .
+  743  docker build -t proxy .
+  744  docker-compose up
+  746  docker-compose -f docker-compose.yml up 
+  749  docker-compose -f docker-compose-proxy.yml up
+  750  docker stop $(docker ps -aq)
+  751  docker rm $(docker ps -aq)\n
+  752  docker build -t proxy .
+  753  docker-compose up 
+  754  docker-compose -f docker-compose-proxy.yml up
+  755  docker ps -a
+  756  docker stop 9cbe137fba12
+  757  docker-compose -f docker-compose-proxy.yml up
+  758  docker ps -a 
+  759  docker stop $(docker ps -aq)
+  760  docker-compose -f docker-compose-proxy.yml up
+  762  docker stop $(docker ps -aq)
+  763  docker rm $(docker ps -aq)
+  764  docker build -t proxy .
+  777  docker rm $(docker ps -aq)
+  778  docker ps -a
+  779  docker build -t proxy .
+  780  docker-compose -f docker-compose-proxy.yml up 
+  781  docker-compose up 
+  783  docker-compose -f docker-compose-proxy.yml up 
+  784  docker stop $(docker ps -aq)
+  785  docker rm $(docker ps -aq)
+  787  docker-compose -f docker-compose-proxy.yml up
+  788  docker ps -a 
+  794  docker-compse -f docker-compose-proxy.yml up
+  795  docker-compose -f docker-compose-proxy.yml up
+  805  docler-compose -f docker-compose-proxy.yml -f 
+  806  docker-compose -f docker-compose-proxy.yml -f a
+  807  docker-compose -f docker-compose-proxy.yml up 
+  808  docker stop $(docker ps -aq)
+  809  docker rm $(docker ps -aq)
+  818  docker ps -a 
+  821  docker build -t proxy .
+  822  docker-compose -f docker-compose-proxy.yml up 
+  824  docker ps -a 
+  825  docker stop 87c568cbb05f
+  826  docker-compose -f docker-compose-proxy.yml up 
+  828  docker-compose up 
+  835  docker build -t proxy .
+  839  docker-compose -f docker-compose-proxy.yml up
+  840  docker stop $(docker ps -aq)
+  841  docker rm $(docker ps -aq)
+  842  docker-compose -f docker-compose-proxy.yml up
+  843  docker stop $(docker ps -aq)
+  844  docker-compose -f docker-compose-proxy.yml up
+  848  git commit -m "Added docker compose for testing proxy"
+  927  touch docker-compose.yml
+  932  docker-compose -f docker-compose.yml run --rm terraform init
+  933  docker login
+  934  docker-compose -f docker-compose.yml run --rm terraform init
+  935  docker login
+  936  docker-compose -f docker-compose.yml run --rm terraform init
+  938  docker logout
+  939  docker login
+  940  docker-compose -f docker-compose.yml run --rm terraform init
+  941  docker login -u jahmed21
+  942  docker-compose -f docker-compose.yml run --rm terraform init
+  951  docker-compose -f docker-compose.yml run --rm terraform init
+  986  docker-compose -f docker-compose.yml run --rm terraform init
+  987  docker login
+  988  docker-compose -f docker-compose.yml run --rm terraform init
+ 1107  docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py test && flake8"
+ 1199  git commit -m "changing docker compose command and adding specific version"
+ 1203  git commit -m "changed docker version
+ 1204  git commit -m "changed docker version"
+ 1210  git commit -m "changed docker version"
+ 1265  git add ../../docker-compose.yml
+ 3268  touch .dockerignore 
+ 3269  touch docker-compose.yml
+ 3272  docker-compose build
+ 3274  docker-compose build
+ 3275  docker-compose run --rm app sh -c "django-admin startproject app ."
+ 3277  docker ls 
+ 3278  docker ls -a 
+ 3279  docker ps
+ 3280  docker-compose up 
+ 3281  docker compose up 
+ 3283  docker compose up 
+ 3284  docker-compose build
+ 3285  docker-compose run --rm app sh -c "django-admin startproject app ."
+ 3286  docker compose up 
+ 3290  docker-compose run --rm app sh -c "python manage.py startapp bouncer"
+ 3298  docker compose up 
+ 3306  docker compose up 
+ 3325  docker-compose -f docker-compose.deploy.yml run --rm glcloud --version 
+ 3326  docker-compose -f docker-compose.deploy.yml run --rm gcloud --version 
+ 3327  docker-compose -f docker-compose-deploy.yml run --rm gcloud --version 
+ 3328  docker-compose -f docker-compose-deploy.yml run --rm gcloud gcloud --version 
+ 3329  docker compose up 
+ 3330  docker-compose -f docker-compose-deploy.yml run --rm gcloud gcloud auth login
+ 3331  docker-compose run --rm app sh -c "python manage.py collectstatic"
+ 3332  docker-compose -f docker-compose-deploy.yml run --rm gcloud gcloud app deploy --project playground-s-11-ca8613ef
+ 3334  docker-compose -f docker-compose-deploy.yml run --rm gcloud gcloud app deploy --project playground-s-11-ca8613ef
+ 3336  docker-compose -f docker-compose-deploy.yml run --rm gcloud gcloud app deploy --project playground-s-11-ca8613ef
+ 3345  docker-compose -f docker-compose-deploy.yml run --rm gcloud gcloud app deploy --project playground-s-11-ca8613ef
+ 7341  docker build -t my-flask-app .\n
+ 7348  docker build -t my-flask-app .\n
+ 7349  docker scan 
+ 7351  docker push  my-flask-app\n
+ 7352  docker login
+ 7353  docker push  my-flask-app\n
+ 7354  docker login -u jahmed21
+ 7355  docker push  my-flask-app\n
+ 7356  docker build -t flask_app .\n
+ 7357  docker push flask_app\n
+ 7358  docker images ls
+ 7359  docker container ls
+ 7360  docker login -u jahmed21 -p Dbz123qwe!
+ 7361  docker push jahmed21/flask_app 0.0.1
+ 7362  docker push jahmed21/flask_app:0.0.1
+ 7366  docker image -a
+ 7367  docker image -aq
+ 7368  docker ls 
+ 7369  docker ls
+ 7370  docker image ls 
+ 7371  docker rmi -f $(docker images -aq)\n
+ 7372  docker system prune 
+ 7374  docker image ls 
+ 7376  docker build -t flask-app:latest .
+ 7377  docker run -p 5000:5000 flask-app:latest
+ 7378  docker run -p 3000:3000 flask-app:latest
+ 7382  docker run -p 5000:5000 flask-app:latest
+ 7389  docker run -p 5000:5000 flask-app:latest
+ 7390  docker image ls 
+ 7391  docker ps
+ 7399  docker run -p 5000:5000 flask-app:latest
+ 7400  docker run -p 3000:3000 flask-app:latest
+ 7403  docker build -t flask-app:latest .
+ 7404  docker run -p 3000:3000 flask-app:latest
+ 7405  history | grep "docker" >> docker_command.txt
+ 7406  cat docker_command.txt
+ 7407  sort docker_command.txt | uniq
+ 7409  cat docker_command.txt
+ 7411  sort docker_command.txt docker_command_sort.txt | uniq > docker_command_sort.txt
+ 7412  cat docker_command_sort.txt
+ 7414  uniq docker_command_sort.txt docker_command_uniq.txt
+ 7415  cat docker_command_uniq.txt
+ 7416  rm -f docker_command_sort.txt docker_command.txt
+ 7417  mv docker_command_uniq.txt docker_command.txt
+ 7418  sort docker_command.txt | uniq -c | sort -rn | awk '$1==1{print $2}' > docker_command_uniq.txt\n
+ 7419  cat docker_command_uniq.txt
+ 7421  rm -rf docker_command_uniq.txt
+ 7423  lawk '/docker/ {print $0}' path/to/file.txt | sort | uniq > docker_command_uniq.txt
+ 7424  awk '/docker/ {print $0}' path/to/file.txt | sort | uniq > docker_command_uniq.txt
+ 7425  awk '/docker/ {print $0}' docker_command.txt | sort | uniq > docker_command_uniq.txt
+ 7426  cat docker_command_uniq.txt
+ 7427  awk '/docker-compose up/ {print $0}' docker_command.txt | sort | uniq > docker_command_uniq.txt
+ 7428  cat docker_command_uniq.txt
+ 7434  docker build -t flask-app:latest .
+ 7437  docker run -p 5000:5000 flask-app:latest
+ 7499  git commit -m "adding docker, basic flask app that serves HTML page"
+ 7539  rm -rf docker_command_uniq.txt
+ 7675  cat docker_command.txt
+ 7797  git commit -m "adding dockerised flask app serving HTML page"
+ 7806  docker run --name mynginx1 -p 80:80 -d nginxcd
+ 7808  docker run --name mynginx1 -p 80:80 -d nginx
+ 7890  mv nginx.conf docker-compose.yml
+ 7901  docker-compose up 
+ 8871  kubectl create deployment hello-server \\n    --image=us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0
+ 8896* gcloud artifacts repositories create quickstart-docker-repo --repository-format=docker \\n--location=us-central1 --description="Docker repository"
+ 8899* gcloud artifacts repositories create quickstart-docker-repo --repository-format=docker \\n--location=us-central1 --description="Docker repository"
+ 8904  gcloud auth configure-docker us-central1-docker.pkg.dev
+ 8906  docker pull us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0
+ 8909  docker tag us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0 \\nus-central1-docker.pkg.dev/$GCP_PROJECT_NAME/jahid-network-test-docker/quickstart-image:tag1
+ 8910  docker push us-central1-docker.pkg.dev/$GCP_PROJECT_NAME/jahid-network-test-docker/quickstart-image:tag1
+ 8911  docker pull us-central1-docker.pkg.dev/$GCP_PROJECT_NAME/jahid-network-test-docker/quickstart-image:tag1
+ 8912  history | grep "docker"
+ 8913  tail -n 20 | history | grep "docker"
